@@ -1,0 +1,140 @@
+/* custom-styles.css */
+
+/* Background Colors */
+.bg-primary-custom {
+    background-color: #007bff !important;
+    /* Blue */
+}
+
+.bg-secondary-custom {
+    background-color: #6c757d !important;
+    /* Grey */
+}
+
+.bg-success-custom {
+    background-color: #28a745 !important;
+    /* Green */
+}
+
+.bg-danger-custom {
+    background-color: #dc3545 !important;
+    /* Red */
+}
+
+.bg-warning-custom {
+    background-color: #ffc107 !important;
+    /* Yellow */
+}
+
+.bg-info-custom {
+    background-color: #17a2b8 !important;
+    /* Cyan */
+}
+
+.bg-light-custom {
+    background-color: #f8f9fa !important;
+    /* Light grey */
+}
+
+.bg-dark-custom {
+    background-color: #f00d0d !important;
+    /* Dark grey */
+}
+
+.bg-body-custom {
+    background-color: #f8f9fa !important;
+    /* Light grey */
+}
+
+.bg-white-custom {
+    background-color: #ffffff !important;
+    /* White */
+}
+
+/* Text Colors */
+.text-primary-custom {
+    color: #007bff !important;
+    /* Blue */
+}
+
+.text-secondary-custom {
+    color: #6c757d !important;
+    /* Grey */
+}
+
+.text-success-custom {
+    color: #28a745 !important;
+    /* Green */
+}
+
+.text-danger-custom {
+    color: #dc3545 !important;
+    /* Red */
+}
+
+.text-warning-custom {
+    color: #ffc107 !important;
+    /* Yellow */
+}
+
+.text-info-custom {
+    color: #17a2b8 !important;
+    /* Cyan */
+}
+
+.text-light-custom {
+    color: #f8f9fa !important;
+    /* Light grey */
+}
+
+.text-dark-custom {
+    color: #343a40 !important;
+    /* Dark grey */
+}
+
+/* Text Alignments */
+.text-left {
+    text-align: left !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+/* Active Link Styling */
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #f8f9fa !important;
+    background-color: #f00d0d !important;
+    /* Optional */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.content {
+    flex: 1;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
